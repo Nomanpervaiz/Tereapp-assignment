@@ -1,0 +1,357 @@
+@font-face {
+    font-family: gilroy;
+    src: url(gilroy/Gilroy-Regular.ttf);
+ }
+@font-face {
+    font-family: gilroybold;
+    src: url(gilroy/Gilroy-ExtraBold.ttf);
+}
+
+body{
+    margin: 0% ;
+    padding: 0% ;
+}
+section{
+    height: 2800px ;
+    background-color: rgb(245, 245, 245) !important;
+
+}
+
+
+
+.navbar {
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    display: flex;    
+   
+}
+.nav-logo{
+    width: 58%;
+    margin-top: 30px ;
+}
+.nav-logo>img{
+    display: flex;
+    width: 16%;
+    margin: 10px 60px ;
+    
+}
+.nav-option{
+    width: 42%;
+    margin-top: 30px ;
+    
+}
+.nav-option ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-option ul li {
+    display: flex;
+}
+
+.nav-option>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px  ;
+    
+}
+.nav-option button{
+    background-color: #75BF7A;
+    color: white;
+    border-radius: 4px;   
+    border-color: #75BF7A;
+    padding: 6px 20px ;
+    cursor: pointer;
+    
+}
+
+
+/* Home section */
+
+
+.home{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.home-main{
+    width: 50%;
+    margin-left:80px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+
+.home-img{
+    margin: 50px ;
+    width: 50%;
+}
+.home-main>h1{
+
+    font-family: gilroybold !important;
+    width: 90%;
+    font-size: 50px ;
+}
+.home-main>p{
+    font-family: gilroy;
+    font-size: 20px ;
+    width: 80%;
+    height: 20% ;
+}
+ 
+.home>a>img{
+    margin-top: 40px ;    
+    width: 25%;
+}
+.download{
+    display: flex;
+    width: 100%;
+    
+}   
+.download>a>img{
+    display: flex;
+    width: 80%;
+
+}   
+
+/* Search section */
+.home-search{
+    font-family: gilroybold;
+    background-color: #75BF7A;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+}
+.search-text{
+    width: 30%;
+    padding: 30px 50Px ;
+    }
+.search-text >a{
+    color: white;
+    text-decoration: none;
+    font-family: gilroy;
+    font-size: 18px;
+}
+.search input{
+    font-family: gilroy;
+    margin: 30px 10px  ;
+    padding: 10px;    
+    padding-right: 300px;
+    
+}
+.search{
+    
+    width: 100%;
+}
+.search>button{
+    color: white;
+    background-color: black;
+    padding: 10px 40px ;
+    cursor: pointer;
+    font-family: gilroy;
+    
+}
+.container-work h4{
+    width: 100%;
+    font-family: gilroybold !important;
+
+}
+.container-work{
+    height: 300px ;
+    width: 90%;
+    margin:5% auto;
+}
+.work-heading{
+    margin: 0px auto;
+    text-align: center;
+    font-family: gilroybold;
+    width: 35% ;
+}
+.work-heading>h1{
+    font-size: 2em;
+}
+.work-heading span{
+    color: #75BF7A;
+}
+
+.work-heading p {
+    font-size: 18px ;
+    font-family: gilroy;
+    height: 100px ;
+    
+}
+
+/* Work boxes */
+.main-box{
+
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    
+    width: 20%;
+    text-align: right;
+    
+}
+.one{
+    
+        width: 100%;
+}
+.box2 img{
+    padding-top: 30px ;
+}
+
+.box2{
+    
+    margin: 20px 40px ;
+    width: 35%;
+    text-align: center;
+    
+}
+.box3{
+    width: 20%;
+}
+
+/* Number circle */
+
+.circle{
+    position: relative;
+    top: 46px ;
+    right: 25px  ;
+}
+.circle-three{
+    position: relative;
+    top: 46px ;
+    left: 24px  ;
+}
+
+/* Benefit section */
+
+
+
+.ben-main{
+    margin-top: 100px ;
+}
+.ben-heading>h2>span{
+    color: #75BF7A;
+}
+.ben-heading{
+    font-family: Gilroybold;
+    display: flex;
+    justify-content: center;
+}
+.ben01{
+    border-radius: 8px ;
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    width: 90%;
+    padding: 10px ;
+}
+.ben01-text{
+    width: 30%;
+    margin: 0px 30px ;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px ;
+    justify-content: center;
+}
+.ben01-img{
+    margin: 0px 80px ;
+    width: 22%;
+}
+
+.ben02{
+    border-radius: 8px ;
+    height: 250px;
+    margin: 40px 0px ;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px ;
+    width: 90%;
+    float:right;
+}
+.ben02-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 80px ;
+    width: 20%;
+}   
+.ben02-img{
+    margin: 0px 80px ;
+
+}
+.ben03{
+    border-radius: 8px ;
+    justify-content: center;
+    display: flex;
+    padding: 10px ;
+    background-color: #fff;
+    margin: 40px 0px ;
+    width: 90%;
+    height: 250px;
+}
+.ben03-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0px 80px ;
+    
+}
+.ben03-img{
+    margin: 0px 80px ;
+
+}
+
+/* Footer */
+
+.footer{
+    font-family: Gilroy;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+}
+
+.footer-img{
+width: 25%;
+
+}
+.detail{
+    width: 25%;
+    
+}
+
+.footer-link{
+    width: 25%;
+    display: flex;
+}
+.footer-link>a>img{
+    width: 80%;
+}
+
+
+/* Copyright */
+.copy{
+    box-shadow: 0px 0px 21px 0px  rgb(231, 231, 231);
+    background-color: #fff;
+    text-align: center;
+
+}
+.copy>p{
+    padding: 50px;
+}
+
+
+/* Ext */
+.text-color{color: #9E9DA2;}
