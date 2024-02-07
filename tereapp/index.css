@@ -1,0 +1,313 @@
+/* navbar start from here */
+@font-face {
+    font-family: gilroyrg;
+    src: url(gilroy/Gilroy-Regular.ttf);
+
+    font-family: gilroybold;
+    src: url(gilroy/Gilroy-Bold.ttf);
+}
+/* Ext */
+.text-color{
+    color: #9E9DA2;
+    font-family: gilroyrg;
+
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+.tere-logo img {
+    width: 150px !important;
+    margin: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: #75BF7A;
+    padding: 0px 20px;
+}
+
+.nav-menu li {
+    padding: 0px 15px;
+}
+
+.navbar {
+    font-family: gilroymd;
+    background-color: white !important;
+
+}
+
+/* section one  */
+.section-one {
+    height: 100%;
+    padding: 40px ;
+}
+
+.home-text {
+    
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.home-text h1 {
+    font-weight: 800;
+    font-family: gilroybold;
+    width: 98%;
+    font-size: 3.8rem;
+    margin-bottom: 50px ;
+}
+
+.home-text p {
+    margin-bottom: 70px;
+    font-family: gilroyrg;
+    font-weight: 500;
+    color: rgb(155, 154, 154);
+    font-size: 1.2rem;
+    width: 80%;
+
+}
+
+.home-image {
+    margin: 30px 0px;
+}
+.home-image >img{
+    width: 100%;
+}
+
+.home-icon-btn img {
+    padding-left: 10px;
+    width: 38%;
+}
+
+.home-icon-btn {
+    margin-left: -10px;
+}
+
+/* section two */
+.section-two{
+    height: 100%;
+}
+.search-main{
+    border-radius: 10px;
+    padding: 30px ;
+    background-color: #75BF7A;
+    margin: 0% 2% ;
+}
+.search-text{
+    color: white;
+    margin: auto;
+    width: 20%;
+}
+.search-input{
+    margin: auto;
+}
+.search-input>input{
+    padding: 10px 0px ;
+    padding-right:60% ;
+}
+.search-btn{
+    margin: auto;
+
+}
+.search-btn>button{
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px ;
+
+}
+
+/* section three */
+
+.section-three{
+    height: 100%;
+}
+
+.work-heading{
+    margin: 30px auto;
+    text-align: center;
+    font-family: gilroybold;
+    width: 35% ;
+}
+.work-heading>h1{
+    font-size: 2em;
+}
+.work-heading span{
+    color: #75BF7A;
+}
+
+.work-heading p {
+    color: rgb(155, 154, 154);
+    font-size: 18px ;
+    font-family: gilroy;
+    width: 90% ;
+    margin: auto;
+}
+
+/* section-four */
+
+.main-box{
+
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    margin-top: 50px ;
+    width: 20%;
+    text-align: right;
+    
+}
+
+.one{
+
+      width: 100%;
+}
+.box2 img{
+    padding-top: 30px ;
+}
+
+.box2{
+    margin: 20px 40px ;
+    width: 35%;
+    text-align: center;
+    
+}
+
+.box3{
+    margin-top: 50px ;
+    width: 20%;
+}
+
+/* section five Benefit section*/
+.section-five{
+
+}
+
+.ben-main{
+    margin-top: 100px ;
+}
+.ben-heading>h2>span{
+    color: #75BF7A;
+}
+.ben-heading{
+    font-family: Gilroybold;
+    display: flex;
+    justify-content: center;
+}
+.ben01{
+    border-radius: 8px ;
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    width: 90%;
+    padding: 10px ;
+}
+.ben01-text{
+    width: 30%;
+    margin: 0px 30px ;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px ;
+    justify-content: center;
+}
+.ben01-img{
+    margin: 0px 80px ;
+}
+.ben01-img img{
+    width: 90%;
+
+}
+
+.ben02{
+    border-radius: 8px ;
+    height: 250px;
+    margin: 40px 0px ;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px ;
+    width: 90%;
+    float:right;
+}
+.ben02-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 80px ;
+    width: 20%;
+}   
+.ben02-img{
+    margin: 0px 80px ;
+
+}
+.ben03{
+    border-radius: 8px ;
+    justify-content: center;
+    display: flex;
+    padding: 10px ;
+    background-color: #fff;
+    margin: 40px 0px ;
+    width: 90%;
+    height: 250px;
+}
+.ben03-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0px 80px ;
+    
+}
+.ben03-img{
+    margin: 0px 80px ;
+
+}
+
+/* Footer */
+
+.footer{
+    font-family: Gilroy;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+}
+
+.footer-img{
+width: 25%;
+
+}
+.detail{
+    width: 25%;
+    
+}
+.detail-2{
+    width: 25%;
+    
+}
+
+.footer-link{
+    width: 25%;
+    display: flex;
+}
+.footer-link>a>img{
+    width: 80%;
+}
+
+
+/* Copyright */
+.copy{
+    box-shadow: 0px 0px 21px 0px  rgb(231, 231, 231);
+    background-color: #fff;
+    text-align: center;
+
+}
+.copy>p{
+    padding: 50px;
+}
